@@ -1,0 +1,284 @@
+body{
+    /*background-image: url("../images1/1.jpeg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    color: #333;
+    overflow-x: hidden;
+    -ms-overflow-x: hidden;
+}
+.color-white{
+    color : #fff !important;
+}
+h1,h2,h3,h4,h5,h6,p,ul.about-list li{
+    color: #333;
+}
+
+/**  home page choose use **/
+#choose-us {
+    width: 100%;
+    position: absolute;
+    height: 20px;
+    background-color: #000;
+    z-index: -1;
+}
+.choose-us-title h1,.choose-us-title h2  {
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    color: #000;
+    font-weight: 700px;
+    letter-spacing: 0px;
+    position: relative;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.choose-us-title h1:after,.choose-us-title h2:after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 5px;
+    left: 50%;
+    margin-left: -40px;
+    bottom: 0px;
+    background-color: maroon;
+    box-shadow: 0 2px 0 maroon;
+}
+.choose-us-item div i {
+    font-size: 65px;
+    color: maroon;
+    text-shadow: 2px 0 5px maroon;
+}
+.choose-us-item h3 {
+    color:  maroon;
+    font-weight: 600px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+.choose-us-item p {
+    color: #333;
+    font-size: 15px;
+    line-height: 23px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+.room {
+    background-image: url(../images1/21.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.room-inner-content {
+    background: rgba(3,3,3,0.5);
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 20px 50px 20px 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.room-inner-content h1,
+.room-inner-content h4 {
+    color: #fdfffc;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.room-inner-content p {
+    margin-top: 30px;
+    color: #fdfffc;
+}
+p.thumbnail-content {
+    word-wrap:break-word;
+}
+.room-content h1,
+.room-content h4 {
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/** homepage call us **/
+/** homepage call us **/
+/** homepage call us **/
+.call-us h2 {
+    font-family: 'Open Sans', sans-serif;
+    padding:70px;
+    text-shadow: 2px 2px 4px #fff;
+    font-weight: 700;
+}
+
+/**** contact - us ***/
+/**** contact - us ***/
+/**** contact - us ***/
+.contact-us-form{
+    padding-top:50px;
+}
+article.contact-us {
+    font-size: 15px;
+    color: #011627;
+    margin-bottom: 40px;
+}
+article.contact-us i {
+    padding-right: 10px;
+}
+#map {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.contact-us-title h2{
+    color: #333;
+    font-weight: 700;
+}
+h2 {
+    color: #333;
+    font-weight: 700;
+}
+article h4 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.contact-us-email {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.contact-us-email h2 {
+    margin-top: 30px;
+}
+.contact-us-email p {
+    margin-bottom: 30px;
+}
+.locate-us {
+    margin-top: 20px;
+}
+.locate-us h2 {
+    margin-top: 30px;
+}
+.map-email>h1{
+    width:100%;
+    text-align: center;
+    color: #333;
+    position: absolute;
+    margin-top: -35px;
+    z-index: auto;
+    font-size:50px;
+}
+.map-email>h1>i{
+    padding:10px;
+}
+.contact-social-media{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.contact-social-media img {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    max-width: 70px;
+    max-height: 70px;
+}
+.contact-social-media img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+/** about us **/
+/** about us **/
+/** about us **/
+.aboutus-services {
+    background-color: rgb(255, 236, 252);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.aboutus-services h2 {
+    color: #b1b32c;
+}
+.aboutus-services h2 p{
+    color: #333 !important;
+    margin-bottom: 50px;
+}
+.aboutus-services-list {
+    background-color: maroon !important;
+    width: 100%;
+    color: #333;
+    margin-bottom: 20px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.aboutus-services-item h4{
+    color: #fff !important;
+    padding: 0 20px 20px 20px;
+}
+.aboutus-services-item i{
+    font-size: 40px;
+    padding-top: 20px;
+    color: #b1b32c;
+}
+.aboutus-services-list:hover{
+    background-color: #b1b32c !important;
+    width: 100%;
+    color: #333;
+    margin-bottom: 20px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.aboutus-services-list:hover i{
+    color: maroon;
+}
+.aboutus-services-list:hover .aboutus-services-item>h4 {
+    color: #2a4d69 !important;
+}
+.aboutus-chooseus {
+    background-color: #129CF3 !important;
+    width: 100%;
+    color: #333;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.aboutus-chooseus h2{
+    color: #fff;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+.aboutus-chooseus p{
+    text-align: justify;
+    color:  #e7eff6;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.aboutus-chooseus i{
+    font-size: 45px;
+    color: #2a4d69;
+    text-shadow: 0 0 1px #fff;
+}
+.aboutus-chooseus h3{
+    font-weight: bold;
+    color: #e7eff6;
+    padding-bottom: 15px;
+}
+.aboutus-followus img{
+    max-height: 50px;
+    max-width: 50px;
+}
+.aboutus-title p{
+    padding-bottom: 20px;
+}
+
+
+.booking{
+    background: #b1b32c;
+    position: absolute;
+    padding: 15px;
+    bottom: 0;
+}
