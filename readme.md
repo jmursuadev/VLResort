@@ -1,3 +1,7 @@
+<h1>Basic Hotel Booking Reservation</h1>
+- jquery <br>
+- ajax <br>
+
 <h2>Installation</h2>
 - Rename the .env-example to .env <br>
 - Create your database <br>
