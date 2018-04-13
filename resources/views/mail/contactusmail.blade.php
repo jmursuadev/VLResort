@@ -1,5 +1,5 @@
 @component('mail::message')
-Hi Villa leonora Resort,<br><br>
+Hi Villa Resort,<br><br>
 Inquiry: {{ $data['sendersubject'] }}<br><br>
 - {{ $data['sendercontent'] }}<br><br>
 - Email was sent by {{ $data['senderemail'] }}<br><br>

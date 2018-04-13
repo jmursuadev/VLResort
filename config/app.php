@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Villa leonora resort'),
+    'name' => env('APP_NAME', 'Villa Resort'),
 
     /*
     |--------------------------------------------------------------------------

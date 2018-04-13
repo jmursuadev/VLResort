@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'VL Resort') }}</title>
+    <title>{{ config('app.name', 'Villa Resort') }}</title>
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
@@ -46,7 +46,7 @@
                 </button>
                 <div class= "logo">
                     <a href="{{ route('index') }}"><img src="{{ asset('images1/logo.jpg') }}" width="70px"></a>
-                    <a href="{{ route('index') }}"><font size="4px"><font color="white">Villa Leonora Resort and Event Venue</font></font></a>
+                    <a href="{{ route('index') }}"><font size="4px"><font color="white">VILLA RESORT</font></font></a>
                 </div>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling --><style>.paging{background-color:grey; color:black;}</style>
@@ -105,7 +105,7 @@
     <nav id="footer">
         <div class="container">
             <div class="pull-left fnav">
-                <p style="color: #fff;">ALL RIGHTS RESERVED. COPYRIGHT © {{ Date('Y') }}. Designed by <font color="orange">BSIT 3RD YR</font></a> </p>
+                <p style="color: #fff;">ALL RIGHTS RESERVED. COPYRIGHT © {{ Date('Y') }}. Designed by <font color="orange">jmursuadev</font></a> </p>
             </div>
             <div class="pull-right fnav">
                 <ul class="footer-social">

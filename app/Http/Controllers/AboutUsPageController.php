@@ -48,7 +48,7 @@ class AboutUsPageController extends Controller
             'sendersubject' => $request->get('sendersubject'),
             'sendercontent' => $request->get('sendercontent')
         );
-        Mail::to('Peterkarlbasilio@gmail.com')->send(new ContactUsMail($data));
+        Mail::to('your_email@gmail.com')->send(new ContactUsMail($data));
 
         return response()->json($data);
     }
